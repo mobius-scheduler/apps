@@ -8,6 +8,6 @@
 * `traffic/`: Monitor real-time road traffic congestion from aerial videos.
 * `lyft/`: Receive Lyft ride requests by originating neighborhood in a metro area.
 
-Note that these implementations require traces containing ground-truth measurements, in order to run within Mobius' trace-driven emulation framework. However, these app implementations are compatible with a real-time system where measurements are gathered / requests are streamed at runtime.
+Note that these implementations require traces containing ground-truth measurements, in order to run within Mobius' trace-driven emulation framework. However, these app implementations are compatible with a real-time system where measurements are gathered or requests arrive at runtime.
 
 For more details on these apps, check out our [paper](https://web.mit.edu/arjunvb/pubs/mobius-mobisys21-paper.pdf).
